@@ -62,7 +62,7 @@ jkun: { name: "jkun", api: "https://jkunzyapi.com/api.php/provide/vod" },
 lsb: { name: "lsb", api: "https://apilsbzy1.com/api.php/provide/vod" },
 hsck: { name: "黃色倉庫", api: "https://hsckzy.vip/api.php/provide/vod" },
 yutu: { name: "玉兔", api: "https://yutuzy10.com/api.php/provide/vod" },
-msnii: { name: "美少女資源站", api: "https://www.msnii.com/api/jso
+msnii: { name: "美少女資源站", api: "https://www.msnii.com/api/json.php" },
 xrbsp: { name: "淫水機資源站", api: "https://www.xrbsp.com/api/json.php" },
 gdlsp: { name: "香奶兒資源站", api: "https://www.gdlsp.com/api/json.php" },
 kxgav: { name: "白嫖資源站", api: "https://www.kxgav.com/api/json.php" },
