@@ -76,6 +76,7 @@ fanhao: { name: "番號資源", api: "http://fhapi9.com/api.php/provide/vod" },
 jingpin: { name: "精品資源", api: "https://www.jingpinx.com/api.php/provide/vod" },
 shayu: { name: "鯊魚資源", api: "https://shayuapi.com/api.php/provide/vod" },
 xiaoji: { name: "小雞資源", api: "https://api.xiaojizy.live/provide/vod" },
+xingba: { name: "杏吧资源", api: "https://xingba111.com/api.php/provide/vod" },
 xibao: { name: "細胞採集", api: "https://www.xxibaozyw.com/api.php/provide/vod" },
 aidan: { name: "愛蛋資源", api: "https://lovedan.net/api.php/provide/vod" }
 
