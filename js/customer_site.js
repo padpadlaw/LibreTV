@@ -1,11 +1,12 @@
-const CUSTOMER_SITES = {
-xiaoji: { name: "量子资源", api: "hhttps://cj.lziapi.com/api.php/provide/vod" },
-modu: { name: "魔都資源", api: "https://www.mdzyapi.com/api.php/provide/vod" },
-baofeng: { name: "暴風資源", api: "https://bfzyapi.com/api.php/provide/vod" },
-feifan: { name: "非凡資源", api: "http://ffzy5.tv/api.php/provide/vod" },
-wolong: { name: "臥龍資源", api: "https://wolongzyw.com/api.php/provide/vod" },
-zuida: { name: "最大資源", api: "https://api.zuidapi.com/api.php/provide/vod" },
-baiduyun: { name: "百度雲資源", api: "https://api.apibdzy.com/api.php/provide/vod" },
+const CUSTOMER_SITES = { 
+  
+  xiaoji: { name: "量子资源", api: "hhttps://cj.lziapi.com/api.php/provide/vod" },
+  modu: { name: "魔都資源", api: "https://www.mdzyapi.com/api.php/provide/vod" },
+  baofeng: { name: "暴風資源", api: "https://bfzyapi.com/api.php/provide/vod" },
+  feifan: { name: "非凡資源", api: "http://ffzy5.tv/api.php/provide/vod" },
+  wolong: { name: "臥龍資源", api: "https://wolongzyw.com/api.php/provide/vod" },
+  zuida: { name: "最大資源", api: "https://api.zuidapi.com/api.php/provide/vod" },
+  baiduyun: { name: "百度雲資源", api: "https://api.apibdzy.com/api.php/provide/vod" },
 jisu: { name: "極速資源", api: "https://jszyapi.com/api.php/provide/vod" },
 tianya: { name: "天涯資源", api: "https://tyyszy.com/api.php/provide/vod" },
 wujin: { name: "無盡資源", api: "https://api.wujinapi.com/api.php/provide/vod" },
@@ -79,6 +80,7 @@ xiaoji: { name: "小雞資源", api: "https://api.xiaojizy.live/provide/vod" },
 xingba: { name: "杏吧资源", api: "https://xingba111.com/api.php/provide/vod" },
 xibao: { name: "細胞採集", api: "https://www.xxibaozyw.com/api.php/provide/vod" },
 aidan: { name: "愛蛋資源", api: "https://lovedan.net/api.php/provide/vod" }
+
 
 };
 
