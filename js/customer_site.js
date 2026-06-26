@@ -75,6 +75,7 @@ const CUSTOMER_SITES = {
     jingpin: { name: "精品资源", api: "https://www.jingpinx.com/api.php/provide/vod" },
     shayu: { name: "鲨鱼资源", api: "https://shayuapi.com/api.php/provide/vod" },
     xiaoji: { name: "小鸡资源", api: "https://api.xiaojizy.live/provide/vod" },
+    aidan: { name: "愛蛋資源", api: "https://lovedan.net/api.php/provide/vod" },
     xibao: { name: "细胞采集", api: "https://www.xxibaozyw.com/api.php/provide/vod" },
     wujinnet: { name: "无尽NET", api: "https://api.wujinapi.net/api.php/provide/vod" }
 };
