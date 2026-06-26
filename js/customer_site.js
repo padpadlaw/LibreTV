@@ -1,5 +1,5 @@
 const CUSTOMER_SITES = {
-    xxibao: {
+    qiqi: {
         api: 'https://www.xxibaozyw.com/api.php/provide/vod',
         name: '细胞资源',
     }
