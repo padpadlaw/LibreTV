@@ -3,6 +3,10 @@ const CUSTOMER_SITES ={
         api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七资源',
     }
+    qiqi: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        name: '七资源',
+    }
 };
 
 // 调用全局方法合并
