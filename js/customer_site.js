@@ -8,6 +8,12 @@ const CUSTOMER_SITES = {
         name: '细胞采集',
     }
 };
+{
+    qiqi: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        name: '七七资源',
+    }
+};
 
 // 调用全局方法合并
 if (window.extendAPISites) {
