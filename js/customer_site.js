@@ -1,13 +1,13 @@
 const CUSTOMER_SITES = {
+ modu: { name: "魔都資源", api: "https://www.mdzyapi.com/api.php/provide/vod" },
+ baofeng: { name: "暴風資源", api: "https://bfzyapi.com/api.php/provide/vod" },
  feifan: { name: "非凡資源", api: "http://ffzy5.tv/api.php/provide/vod" },
  wolong: { name: "臥龍資源", api: "https://wolongzyw.com/api.php/provide/vod" },
  zuida: { name: "最大資源", api: "https://api.zuidapi.com/api.php/provide/vod" },
  baiduyun: { name: "百度雲資源", api: "https://api.apibdzy.com/api.php/provide/vod" },
- baofeng: { name: "暴風資源", api: "https://bfzyapi.com/api.php/provide/vod" },
  jisu: { name: "極速資源", api: "https://jszyapi.com/api.php/provide/vod" },
  tianya: { name: "天涯資源", api: "https://tyyszy.com/api.php/provide/vod" },
  wujin: { name: "無盡資源", api: "https://api.wujinapi.com/api.php/provide/vod" },
- modu: { name: "魔都資源", api: "https://www.mdzyapi.com/api.php/provide/vod" },
  sanliuling: { name: "360資源", api: "https://360zy.com/api.php/provide/vod" },
  dytt: { name: "電影天堂", api: "http://caiji.dyttzyapi.com/api.php/provide/vod" },
  ruyi: { name: "如意資源", api: "https://cj.rycjapi.com/api.php/provide/vod" },
@@ -21,7 +21,6 @@ const CUSTOMER_SITES = {
  lezi: { name: "樂子資源", api: "https://cj.lziapi.com/api.php/provide/vod" },
  haihua: { name: "海豚資源", api: "https://hhzyapi.com/api.php/provide/vod" },
  jiangyu: { name: "鯨魚資源", api: "https://jyzyapi.com/provide/vod" },
- aidan: { name: "愛蛋資源", api: "https://lovedan.net/api.php/provide/vod" },
  moduzy: { name: "魔都影視", api: "https://www.moduzy.com/api.php/provide/vod" },
  feifanapi: { name: "非凡API", api: "https://api.ffzyapi.com/api.php/provide/vod" },
  feifancj: { name: "非凡採集", api: "http://cj.ffzyapi.com/api.php/provide/vod" },
@@ -39,7 +38,46 @@ const CUSTOMER_SITES = {
  wujincc: { name: "無盡CC", api: "https://api.wujinapi.cc/api.php/provide/vod" },
  yaya: { name: "丫丫點播", api: "https://cj.yayazy.net/api.php/provide/vod" },
  wolongcc: { name: "臥龍CC", api: "https://collect.wolongzy.cc/api.php/provide/vod" },
- wujinnet: { name: "無盡NET", api: "https://api.wujinapi.net/api.php/provide/vod" }
+ wujinnet: { name: "無盡NET", api: "https://api.wujinapi.net/api.php/provide/vod" },
+ wangwangapi: { name: "旺旺API", api: "https://api.wwzy.tv/api.php/provide/vod" },
+ zuidame: { name: "最大點播", api: "http://zuidazy.me/api.php/provide/vod" },
+ yinghua: { name: "櫻花資源", api: "https://m3u8.apiyhzy.com/api.php/provide/vod" },
+ bubugao: { name: "步步高資源", api: "https://api.yparse.com/api/json" },
+ niuniu: { name: "牛牛點播", api: "https://api.niuniuzy.me/api.php/provide/vod" },
+ suoni: { name: "索尼資源", api: "https://suoniapi.com/api.php/provide/vod" },
+ maotai: { name: "茅台資源", api: "https://caiji.maotaizy.cc/api.php/provide/vod" },
+ dbzy: { name: "豆瓣資源", api: "https://dbzy.tv/api.php/provide/vod" },
+ subo: { name: "速博資源", api: "https://subocaiji.com/api.php/provide/vod" },
+ jinying: { name: "金鷹點播", api: "https://jinyingzy.com/api.php/provide/vod" },
+ shandian: { name: "閃電資源", api: "https://sdzyapi.com/api.php/provide/vod" },
+ piaoling: { name: "飄零資源", api: "https://p2100.net/api.php/provide/vod" },
+ modudongman: { name: "魔都動漫", api: "https://caiji.moduapi.cc/api.php/provide/vod" },
+ hongniu3: { name: "紅牛資源3", api: "https://www.hongniuzy3.com/api.php/provide/vod" },
+ suonisd: { name: "索尼-閃電", api: "https://xsd.sdzyapi.com/api.php/provide/vod" },
+ leba: { name: "樂播資源", api: "https://lbapi9.com/api.php/provide/vod" },
+ ck: { name: "CK", api: "https://www.ckzy1.com/api.php/provide/vod" },
+ jkun: { name: "jkun", api: "https://jkunzyapi.com/api.php/provide/vod" },
+ 155: { name: "155", api: "https://155api.com/api.php/provide/vod" },
+ lsb: { name: "lsb", api: "https://apilsbzy1.com/api.php/provide/vod" },
+ hsck: { name: "黃色倉庫", api: "https://hsckzy.vip/api.php/provide/vod" },
+ yutu: { name: "玉兔", api: "https://yutuzy10.com/api.php/provide/vod" },
+ msnii: { name: "美少女資源站", api: "https://www.msnii.com/api/json.php" },
+ xrbsp: { name: "淫水機資源站", api: "https://www.xrbsp.com/api/json.php" },
+ gdlsp: { name: "香奶兒資源站", api: "https://www.gdlsp.com/api/json.php" },
+ kxgav: { name: "白嫖資源站", api: "https://www.kxgav.com/api/json.php" },
+ pgxdy: { name: "黃AV資源站", api: "https://www.pgxdy.com/api/json.php" },
+ baiwan: { name: "百萬資源", api: "https://api.bwzyz.com/api.php/provide/vod" },
+ madou: { name: "91麻豆", api: "https://91md.me/api.php/provide/vod" },
+ aosika: { name: "奧斯卡資源", api: "https://aosikazy.com/api.php/provide/vod" },
+ naixiang: { name: "奶香香", api: "https://Naixxzy.com/api.php/provide/vod" },
+ senlin: { name: "森林資源", api: "https://slapibf.com/api.php/provide/vod" },
+ fanhao: { name: "番號資源", api: "http://fhapi9.com/api.php/provide/vod" },
+ jingpin: { name: "精品資源", api: "https://www.jingpinx.com/api.php/provide/vod" },
+ shayu: { name: "鯊魚資源", api: "https://shayuapi.com/api.php/provide/vod" },
+ xiaoji: { name: "小雞資源", api: "https://api.xiaojizy.live/provide/vod" }
+ xibao: { name: "細胞採集", api: "https://www.xxibaozyw.com/api.php/provide/vod" },
+ aidan: { name: "愛蛋資源", api: "https://lovedan.net/api.php/provide/vod" }
+ 
 };
 
 // 呼叫全域方法合併
@@ -47,4 +85,3 @@ if (window.extendAPISites) {
  window.extendAPISites(CUSTOMER_SITES);
 } else {
  console.error("錯誤：請先載入 config.js！");
-}
