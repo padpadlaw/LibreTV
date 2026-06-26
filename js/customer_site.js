@@ -39,7 +39,7 @@ const CUSTOMER_SITES = {
     wujincc: { name: "无尽CC", api: "https://api.wujinapi.cc/api.php/provide/vod" },
     yaya: { name: "丫丫点播", api: "https://cj.yayazy.net/api.php/provide/vod" },
     wolongcc: { name: "卧龙CC", api: "https://collect.wolongzy.cc/api.php/provide/vod" },
-    wangwangapi: { name: "旺旺API", api: "https://api.wwzy.tv/api.php/provide/vod" },
+        wangwangapi: { name: "旺旺API", api: "https://api.wwzy.tv/api.php/provide/vod" },
     zuidame: { name: "最大点播", api: "http://zuidazy.me/api.php/provide/vod" },
     yinghua: { name: "樱花资源", api: "https://m3u8.apiyhzy.com/api.php/provide/vod" },
     bubugao: { name: "步步高资源", api: "https://api.yparse.com/api/json" },
