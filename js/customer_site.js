@@ -1,7 +1,11 @@
 const CUSTOMER_SITES = {
-    qiqi: {
+    xxibao: {
         api: 'https://www.xxibaozyw.com/api.php/provide/vod',
         name: '细胞资源',
+    }
+    qiqi: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
+        name: '魔都资源',
     }
 };
 
